@@ -59,6 +59,17 @@ header{
  
 }
 
+.btn-danger {
+    --bs-btn-bg: #fd0d0d;
+    --bs-btn-border-color: #fd0d0d;
+    --bs-btn-hover-bg: #fd0d0d;
+    --bs-btn-hover-border-color: #fd0d0d;
+    --bs-btn-active-bg: #fd0d0d;
+    --bs-btn-active-border-color: #fd0d0d;
+    --bs-btn-disabled-bg: #fd0d0d;
+ 
+}
+
 .dropdown {
     position:static
 }
@@ -110,6 +121,15 @@ form label{
     border-radius: 0 40px;
 }
 
+#contratacao{
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+    padding: 100px;
+    margin: 100px;
+    border-radius: 0 40px;
+}
+
 .Sobre{
     display: flex;
     margin: 100px;
@@ -133,21 +153,31 @@ form label{
 }
 
 .ImagemSobre img{
-    max-width:100%;height:auto;
+    
 }
 
 #login{
     display: flex;
 }
 #imagemLogin{
-    max-width:60%;
-    height:auto;
+    max-width:100%;
+    
 }
 #formLogin{
-    width: 40%;
-    padding: 100px;
-    justify-items: center;
+   
+    max-width: 45%;
+    padding-left: 100px;
+    padding-right: 100px;
     background-color: #000000;
+}
+#divImagem{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    max-width:55%;
+    height:auto;
+    
+    
 }
 #login a {
     color: white;
@@ -202,9 +232,47 @@ form label{
 #topicos h1{
     color: #ffffff;
 }
-#unidades{
+#inputLinkedIn{
+    display: flex;
+    flex-wrap: wrap;
     
 }
+#inputLinkedIn input{
+    width: 120px;
+    margin-top: 10px;
+    
+}
+#inputLinkedIn span{
+    
+    margin-top: 10px;
+    
+}
+.input-group {
+    position: static;
+    
+}
+.form-control{
+    position: static;
+}
+.input-group>.form-control, .input-group>.form-floating, .input-group>.form-select {
+    position: static; 
+    
+    
+  }
+
+  #logoLogin{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 30px;
+    margin-bottom: 30px;
+    margin-top: 16px;
+    height: 180px;
+  }
+  #logoLogin img{
+    max-width:100%;height:auto;
+  }
 @media(max-width: 480px){
     #unidades{
         margin: 10px;
@@ -251,9 +319,16 @@ form label{
     }
     #formLogin{
         width: 100%;
-        padding: 50px;
+        padding: 20px;
+        margin-top: 100px;
+        max-width: 100%
        
     }
+    #login{
+        display: flex;
+        justify-content: center;
+    }
+    
 
     #cardsInfo{
         padding: 20px;
@@ -262,6 +337,13 @@ form label{
     #topicos{
         padding: 50px;
         padding-top: 20px;
+        
+    }
+
+    #contratacao{
+        
+        margin: 0px;
+
         
     }
 }
@@ -293,10 +375,17 @@ form label{
     #imagemLogin{
         width: 0;
     }
+    #login{
+        display: flex;
+        justify-content: center;
+    }
+    
 
     #formLogin{
         width: 100%;
-        padding: 100px;
+        padding: 50px;
+        margin-top: 100px;
+        max-width: 100%
        
     }
 
@@ -310,7 +399,9 @@ form label{
         padding-top: 150px;
         
     }
-    
+    #comece{
+        margin-top: 100px;
+    }
 }
 
 

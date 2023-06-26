@@ -13,8 +13,8 @@
     <header>
         <div class="navbar">
           <img
-            src="https://uploads-ssl.webflow.com/618d15b3edde403578e4bf94/63824efaf12be120af8090f5_logo.png"
-            width="100px"
+            src="/Imagens/Strong-removebg-preview.png"
+            width="200px"
             alt=""
           />
           <ul id="itensNav" class="nav nav-underline">
@@ -47,8 +47,8 @@
       </header>
   
       <div id="Container">
-        <img src="/Imagens/male-athlete-training-hard-gym_cropped.jpg" alt="">
-      <div id="matricula">
+        <img src="/Imagens/group-people-exercising-with-dumbbells-fitness-club-gym_cropped.jpg" alt="">
+      <div id="contratacao">
         <form action="/Telas/Index.html" >
           <div id="informacoesMatricula">
             <div>
@@ -58,19 +58,20 @@
               <input type="text" id="sobrenome" title="Insira o seu sobrenome" name="sobrenome" class="form-control" placeholder="Silva" required pattern="[a-z\s]+$"/>
               <label for="nacimento" class="form-label">Data de nacimento</label>
               <input type="date" max="2008-01-01" title="Insira a sua data de nacimento" required id="nacimento" name="nacimento" class="form-control" pattern="[0-9]{2}\/[0-9]{2}\/[0-9]{4}$"/>
+              <label for="infoAdicionais" class="form-label">Informações adicionais</label>
+              <textarea id="infoAdicionais"class="form-control" title="Informações opcionais para agregar" aria-label="With textarea"></textarea>
             </div>
             <div>
             <label for="telefone" class="form-label">Telefone</label>
               <input type="tel"  id="telefone" name="telefone" class="form-control" title="Insira o seu telefone/celular contendo o DDD" required placeholder="(00) 0 0000 0000" />
               <label for="email"  class="form-label">E-mail</label>
               <input type="email" id="email" name="email" class="form-control" title="Insira o seu E-mail" required placeholder="seuemail@email.com" />
-              
                 <label for="unidade" class="form-label">Qual Unidade</label> 
                 <div class="dropdown">
-                  <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <button class="btn btn-danger dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Selecione
                   </button>
-                  <ul class="dropdown-menu dropdown-menu-dark" id="unidade">
+                  <ul class="dropdown-menu " id="unidade">
                     <li><a class="dropdown-item" href="#">Riacho Fundo I</a></li>
                     <li><a class="dropdown-item" href="#">Riacho Fundo II</a></li>
                     <li><a class="dropdown-item" href="#">Taguatinga</a></li>
@@ -78,6 +79,13 @@
                   </ul>
                 </div>
               
+            </div>
+          </div>
+          <div>
+            <label for="linkedin" class="form-label">LinkedIn</label>
+            <div id="inputLinkedIn" class="input-group">
+                <span class="input-group-text" >https://www.linkedin.com/in/</span>
+                <input type="text" class="form-control" title="Insira o link do seu LinkedIn" id="linkedin"  required>
             </div>
           </div>
           <br>
@@ -89,7 +97,7 @@
         </form>
         
       </div>
-      <img src="/Imagens/young-man-sportswear-exercise-class-gym_cropped.jpg" alt="">
+      <img src="/Imagens/incognito-man-building-biceps-with-barbell_cropped.jpg" alt="">
     </div>
 
     <footer>
@@ -102,7 +110,7 @@
             </div>
             <div class="nav nav-underline flex-column">
                 <a class="nav-link link-dark" href="/Telas/Matricula.html">Matrículas</a>
-                <a class="nav-link link-dark" href="#">Trabalhe Conosco</a>
+                <a class="nav-link link-dark" href="/Telas/TrabalheConosco.html">Trabalhe Conosco</a>
                 <a class="nav-link link-dark" href="/Telas/PoliticaPrivacidade.html">Política de Privacidade</a>
             </div>
             
