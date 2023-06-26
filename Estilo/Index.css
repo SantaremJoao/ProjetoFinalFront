@@ -1,0 +1,318 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    
+}
+.navbar{
+    justify-content: space-around ;
+}
+
+.btn-primary {
+    --bs-btn-bg: #fd0d0d;
+    --bs-btn-border-color: #fd0d0d;
+    --bs-btn-hover-bg: #020202;
+    --bs-btn-hover-border-color: #020202;
+}
+
+
+
+#Container{
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    
+}
+#cidade{
+    display: flex;
+    gap: 5px;
+}
+#cidade p{
+    width: 150px;
+}
+
+#comece{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dropdown-menu-dark {
+    --bs-dropdown-bg: #020202;
+    --bs-dropdown-link-active-bg: #fd0d0d;
+    
+}
+
+.btn-secondary {
+    --bs-btn-bg: #000000;
+    --bs-btn-border-color: #000000;
+    --bs-btn-hover-bg: #000000;
+    --bs-btn-hover-border-color: #000000;
+    --bs-btn-active-bg: #000000;
+    --bs-btn-active-border-color: #000000;
+    --bs-btn-disabled-bg: #000000;
+ 
+}
+
+.dropdown {
+    position:static
+}
+
+.local{
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+
+.local h1{
+    margin-right: 30px ;
+}
+
+#unidades{
+    margin: 100px;
+}
+
+footer{
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap ;
+}
+
+#conteudo{
+    display: flex;
+    gap: 100px;
+    flex-wrap: wrap ;
+    padding-bottom: 30px;
+}
+
+#informacoesMatricula, #informacoesCartaoMatricula{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+form label{
+    color: white;
+}
+
+#matricula{
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+    padding: 100px;
+    margin: 100px;
+    border-radius: 0 40px;
+}
+
+.Sobre{
+    display: flex;
+    margin: 100px;
+    background-color: #000000;
+    border-radius: 0 40px;
+    flex-wrap: wrap;
+    
+    
+}
+#InfoStrong{
+    padding: 40px;
+    color: white;
+    width: 50%;
+    
+}
+
+.ImagemSobre{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.ImagemSobre img{
+    max-width:100%;height:auto;
+}
+
+#login{
+    display: flex;
+}
+#imagemLogin{
+    max-width:60%;
+    height:auto;
+}
+#formLogin{
+    width: 40%;
+    padding: 100px;
+    justify-items: center;
+    background-color: #000000;
+}
+#login a {
+    color: white;
+    text-decoration: none;
+}
+#loginBody{
+    background-color: #000000;
+}
+#paginaConstrucao{
+    display: flex;
+    flex-direction: column;
+    background-color: #000000;
+    height: 700px;
+    justify-content: center;
+    align-items: center;
+}
+#paginaConstrucao h1{
+    color: white;
+}
+#entrar{
+    color: #fd0d0d !important;
+    
+}
+.card {
+    
+    position: static;
+    background-color: #000;
+    --bs-card-border-width: #ffff;
+}
+
+#cardsInfo{
+    padding: 100px;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+}
+
+.cardInfo{
+    margin: 10px;
+}
+
+.card-body {
+    color: #ffffff
+}
+#topicos{
+    padding: 150px;
+    background-color: #000;
+}
+#topicos p{
+    color: #ffffff;
+}
+#topicos h1{
+    color: #ffffff;
+}
+#unidades{
+    
+}
+@media(max-width: 480px){
+    #unidades{
+        margin: 10px;
+    }
+
+    #Container{
+        padding-top: 10px;
+        
+    }
+    #itensNav{
+        margin-left: 5px;
+        margin-right: 5px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar{
+        flex-direction: column;
+    }
+
+    header{
+        position: relative;
+    }
+    #matricula{
+        justify-content: center;
+    }
+
+    .Sobre{
+        margin: 0px;
+        justify-content: center;
+    }
+
+    .ImagemSobre img{
+        width: 280px;
+    }
+
+    #InfoStrong{
+    
+        width: 100%;
+        
+    }
+    #imagemLogin{
+        width: 0;
+    }
+    #formLogin{
+        width: 100%;
+        padding: 50px;
+       
+    }
+
+    #cardsInfo{
+        padding: 20px;
+        
+    }
+    #topicos{
+        padding: 50px;
+        padding-top: 20px;
+        
+    }
+}
+
+
+
+@media ((min-width: 481px) and (max-width: 768px)){
+    
+    #unidades{
+        margin: 100px 40px;
+    }
+
+    .ImagemSobre img{
+        width: 300px;
+    }
+
+    .Sobre{
+        margin: 30px;
+        justify-content: center;
+        
+    }
+
+    #InfoStrong{
+    
+        width: 100%;
+        
+    }
+
+    #imagemLogin{
+        width: 0;
+    }
+
+    #formLogin{
+        width: 100%;
+        padding: 100px;
+       
+    }
+
+    #cardsInfo{
+        padding: 50px;
+        
+    }
+
+    #topicos{
+        padding: 100px;
+        padding-top: 150px;
+        
+    }
+    
+}
+
+
+
+
