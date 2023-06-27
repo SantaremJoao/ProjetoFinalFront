@@ -273,6 +273,11 @@ form label{
   #logoLogin img{
     max-width:100%;height:auto;
   }
+  /* @media-CSS-TABELA */
+  #tabela{
+    justify-content: center;
+  }
+  /* FINAL-CSS-TABELA */
 @media(max-width: 480px){
     #unidades{
         margin: 10px;
@@ -346,8 +351,12 @@ form label{
 
         
     }
+    /* @media-CSS-TABELA */
+    #tabela{
+    justify-content: center;
+    }
+    /* FINAL-CSS-TABELA */
 }
-
 
 
 @media ((min-width: 481px) and (max-width: 768px)){
@@ -402,6 +411,11 @@ form label{
     #comece{
         margin-top: 100px;
     }
+    /* @media-CSS-TABELA */
+    #tabela{
+    justify-content: center;
+    }
+  /* FINAL-CSS-TABELA */
 }
 
 
