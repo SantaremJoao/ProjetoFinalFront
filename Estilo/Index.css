@@ -277,6 +277,24 @@ form label{
   #tabela{
     justify-content: center;
   }
+
+  #conteudo-aulas{
+    background-color: #000;
+  }
+  footer{
+    background-color: #ffffff;
+  }
+
+  #tabela{
+    padding: 100px;
+    padding-top: 150px;
+    display:flex; margin: auto;
+    flex-direction: column;
+    width: 100%; text-align: center;;
+  }
+    #infopp{
+        color: #ffffff;
+    }
   /* FINAL-CSS-TABELA */
 @media(max-width: 480px){
     #unidades{
@@ -415,6 +433,7 @@ form label{
     #tabela{
     justify-content: center;
     }
+
   /* FINAL-CSS-TABELA */
 }
 
