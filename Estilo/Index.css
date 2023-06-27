@@ -114,11 +114,13 @@ form label{
 
 #matricula{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     background-color: #000000;
     padding: 100px;
     margin: 100px;
     border-radius: 0 40px;
+    gap: 30px;
 }
 
 #contratacao{
@@ -374,11 +376,17 @@ form label{
     justify-content: center;
     }
     /* FINAL-CSS-TABELA */
+    #matricula img{
+        width: 180px;
+    }
 }
 
 
 @media ((min-width: 481px) and (max-width: 768px)){
     
+    #matricula img{
+        width: 250px;
+    }
     #unidades{
         margin: 100px 40px;
     }
